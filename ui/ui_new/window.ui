@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomePage</class>
+ <widget class="QWidget" name="HomePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>367</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(37, 45, 68);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/img/icon.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>271</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QPushButton" name="pushButtonRecite">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #4a90e8;
+font-size:22px;
+font-family:&quot;Microsoft YaHei&quot;;
+color:#ebf6ff</string>
+      </property>
+      <property name="text">
+       <string>背单词</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonSearch">
+      <property name="styleSheet">
+       <string notr="true">background-color: #4a90e8;
+font-size:22px;
+font-family:&quot;Microsoft YaHei&quot;;
+color:#ebf6ff</string>
+      </property>
+      <property name="text">
+       <string>查单词</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonWBook">
+      <property name="styleSheet">
+       <string notr="true">background-color: #4a90e8;
+font-size:22px;
+font-family:&quot;Microsoft YaHei&quot;;
+color:#ebf6ff</string>
+      </property>
+      <property name="text">
+       <string>单词本</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonQuit">
+      <property name="styleSheet">
+       <string notr="true">background-color: #4a90e8;
+font-size:22px;
+font-family:&quot;Microsoft YaHei&quot;;
+color:#ebf6ff</string>
+      </property>
+      <property name="text">
+       <string>退出</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../code/my_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
